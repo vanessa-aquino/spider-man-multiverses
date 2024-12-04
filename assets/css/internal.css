@@ -29,6 +29,18 @@
   z-index: 1;
 }
 
+
+.s-logo {
+  margin-top: 2rem;
+  max-width: 90%;
+  max-height: 40%;
+}
+
+.s-logo img {
+  max-height: 95%;
+  max-width: 60%;
+}
+
 .s-wrapper .s-main-content {
   height: 100%;
   width: 100%;
@@ -50,22 +62,18 @@
   justify-content: flex-end;
 }
 
-.s-wrapper .s-main-content .s-logo img {
-  margin-top: 50px;
-  margin-left: 0;
-  margin-bottom: 30px;
-}
-
 .s-wrapper .s-main-content__top .s-description {
   background-color: rgba(0,0,0,.7);
-  max-width: 50%;
+  max-width: 90%;
   padding: 20px;
   border-radius: 10px;
+  margin-top: 1rem;
 }
 
 .s-wrapper .s-main-content__top .s-description .s-description__text p {
+  font-size: 1rem;
   color: #ffffff;
-  line-height: 170%;
+  line-height: 150%;
 }
 
 .s-wrapper .s-main-content__top .s-description .pills {
@@ -73,7 +81,7 @@
 }
 
 .s-wrapper .s-main-content .s-links {
-  padding: 20px;
+  padding: 10px;
   padding-left: 0;
 }
 
